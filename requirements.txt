@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+streamlit
+plotly
+pytest
+pytest-cov
+requests
+flake8
+databricks-sdk
