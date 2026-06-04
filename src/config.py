@@ -44,3 +44,18 @@ CATEGORICAL_FEATURES = [
 
 TARGET = 'isFraud'
 ID_COL = 'TransactionID'
+
+# Real model results from Databricks training run
+MODEL_RESULTS = {
+    'auc_roc': 0.8623,
+    'avg_precision': 0.4170,
+    'fraud_precision': 0.1966,
+    'fraud_recall': 0.5855,
+    'fraud_f1': 0.2943,
+    'true_positives': 1925,
+    'false_positives': 7868,
+    'false_negatives': 1363,
+    'training_records': 472432,
+    'test_records': 118108,
+    'mlflow_run_id': 'e5cdd72b61ec4cabb73c8eb9bb0b9835'
+}
